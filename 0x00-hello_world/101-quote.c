@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <unistd.h>
-/
+/*
  * main - Entry point
+ *
+ * Description: this program prints and that art is useful using write
  * Return:1
  */
 int main(void)
