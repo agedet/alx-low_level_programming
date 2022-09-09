@@ -1,6 +1,8 @@
 #include <stdio.h>
-/
- * main - main block
+/*
+ * main - print the string in the printf function
+ *
+ * Description: using the main funnction this program prints using printf
  * Return: 0
  */
 int main(void)
