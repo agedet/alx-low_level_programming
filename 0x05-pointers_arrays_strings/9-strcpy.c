@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
 * *_strcpy -  Copy the string pointed to by pointer `src` to
 * the buffer pointed to by `dest`
 * @dest: char pointer
