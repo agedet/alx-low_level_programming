@@ -86,7 +86,7 @@ char **strtow(char *str)
 
 		strings[w] = malloc(sizeof(char) * (letters + 1));
 
-												if (strings[w] == NULL)
+		if (strings[w] == NULL)
 		{
 			for (; w >= 0; w--)
 				free(strings[w]);
@@ -94,9 +94,11 @@ char **strtow(char *str)
 			free(strings);
 			return (NULL);
 		}
-												for (l = 0; l < letters; l++)
+
+		for (l = 0; l < letters; l++)
 			strings[w][l] = str[index++];
-												strings[w][l] = '\0';
+
+		strings[w][l] = '\0';
 	}
 	strings[w] = NULL;
 
